@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Futura";
+  src: url("./fonts/FuturaBookC.woff");
+  src: local("Futura Book Cyrillic"),
+  local("FuturaBookC"),
+  url("./fonts/FuturaBookC.woff") format("woff");
+}
+
+:root {
+  --font_futura: futura, sans-serif;
+  --font_lato: lato, sans-serif;
+
+  --head-img: #f4f6f9;
+  --grey-standard: #eee;
+}

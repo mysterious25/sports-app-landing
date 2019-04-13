@@ -1,7 +1,99 @@
+@import url(variables.css);
+
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
+}
+
+.head-container {
+  background: var(--head-img) url(icons/main-photo.png) right no-repeat;
+  height: 665px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title_wrapper {
+  padding: 61px 0 0 150px;
+  max-width: 40%;
+}
+
+.logo-wrapper {
+  height: 200px;
+}
+
+.h1_head {
+  font-size: 36px;
+  font-family: var(--font_futura);
+}
+
+.second-container {
+  height: 592px;
+  background: url("icons/christiano_fon.jpg") no-repeat left;
+  display: flex;
+}
+
+.second_left,
+.second_right {
+  width: 50%;
+}
+
+.match_area {
+  max-width: 360px;
+  height: 218px;
+  background: white;
+  margin: 109px 0 0 163px;
+  border-radius: 7px;
+  position: relative;
+  padding: 27px 0 0 15px;
+  box-sizing: border-box;
+}
+
+.img_opposite {
+  top: 50px;
+  position: absolute;
+  right: 15px;
+}
+
+.img_command {
+  position: absolute;
+  top: 50px;
+  right: 90px;
+}
+
+.time {
+  font-weight: bold;
+  line-height: 22px;
+  font-size: 17px;
+}
+
+.p_match,
+.time,
+.h3_time {
+  font-family: var(--font_lato);
+}
+
+.p_match {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.form_match {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: var(--grey-standard);
+  width: 100%;
+  align-items: center;
+  height: 45px;
+}
+
+.input_none {
+  display: none;
+}
+
+.title_check {
+  font-weight: bold;
 }
