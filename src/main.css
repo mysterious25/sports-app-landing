@@ -316,7 +316,7 @@ body {
 }
 
 .fourth_container {
-  background: url(icons/blue-fon.jpg) no-repeat;
+  background-image: url(icons/blue-fon.jpg);
   background-size: contain;
 }
 
