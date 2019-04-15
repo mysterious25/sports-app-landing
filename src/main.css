@@ -303,4 +303,21 @@ body {
   opacity: 0.1;
 }
 
+.dot {
+  background-color: var(--ocean);
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  border: 8px solid var(--white);
+  position: absolute;
+  top: 453px;
+  left: -49px;
+  box-sizing: content-box;
+}
+
+.fourth_container {
+  background: url(icons/blue-fon.jpg) no-repeat;
+  background-size: contain;
+}
+
 
