@@ -13,6 +13,7 @@ body {
   height: 665px;
   display: flex;
   flex-direction: column;
+  background-size: contain;
 }
 
 .title_wrapper {
@@ -32,6 +33,11 @@ body {
 .second-container {
   height: 592px;
   background: url("icons/christiano_fon.jpg") no-repeat left;
+}
+
+.second_container_wrapper {
+  margin: 0 auto;
+  width: 1366px;
   display: flex;
 }
 
@@ -40,15 +46,20 @@ body {
   width: 50%;
 }
 
+.second_left {
+  margin-right: 125px;
+}
+
 .match_area {
   max-width: 360px;
   height: 218px;
   background: white;
-  margin: 109px 0 0 163px;
+  margin: 109px 0 0 0px;
   border-radius: 7px;
   position: relative;
   padding: 27px 0 0 15px;
   box-sizing: border-box;
+  z-index: 2;
 }
 
 .img_opposite {
@@ -67,6 +78,7 @@ body {
   font-weight: bold;
   line-height: 22px;
   font-size: 17px;
+  color: var(--grey3);
 }
 
 .p_match,
@@ -76,6 +88,10 @@ body {
 }
 
 .p_match {
+  font-weight: bold;
+}
+
+.p_match .form_match {
   font-weight: bold;
   font-size: 17px;
 }
@@ -88,6 +104,42 @@ body {
   width: 100%;
   align-items: center;
   height: 45px;
+  padding: 13px 18px;
+}
+
+.icon:before {
+  content: '';
+  width: 28px;
+  height: 12px;
+  background-color: var(--grey2);
+  right: 18px;
+  position: absolute;
+  border-radius: 6px;
+  top: 17px;
+}
+
+.icon:after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: var(--white);
+  right: 33px;
+  border-radius: 50%;
+}
+
+.label {
+  cursor: pointer;
+}
+
+.input_none:checked ~ .icon:before {
+  background-color: var(--ocean);
+  transition: 0.5s;
+}
+
+.input_none:checked ~ .icon:after {
+  right: 7px;
+  transition: 0.4s;
 }
 
 .input_none {
@@ -96,4 +148,159 @@ body {
 
 .title_check {
   font-weight: bold;
+  font-family: var(--font_lato);
+  font-size: 19px;
+  color: var(--grey3)
 }
+
+.under_img {
+  position: relative;
+  right: -297px;
+}
+
+.video {
+  width: 360px;
+  margin-top: -50px;
+  margin-left: 150px;
+}
+
+.h5 {
+  font-family: var(--font_lato);
+  font-size: 16px;
+  color: var(--ocean);
+  margin-bottom: 65px;
+}
+
+.h3_second_container {
+  font-family: var(--font_lato);
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.p_second_container {
+  font-family: var(--font_lato);
+  color: var(--grey3);
+  width: 407px;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.second_right {
+  margin-top: 115px;
+}
+
+.a_learn_more {
+  font-family: var(--font_lato);
+  font-size: 16px;
+  color: var(--ocean);
+  margin-bottom: 65px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.a_learn_more:hover {
+  text-decoration: underline;
+}
+
+.third_container {
+  display: flex;
+  margin: 0 auto;
+  width: 1360px;
+  overflow: hidden;
+}
+
+.third_container_left,
+.third_container_right {
+  width: 50%;
+}
+
+.third_container_left {
+  padding: 102px 21px 12px 110px;
+}
+
+.third_container_right {
+  position: relative;
+}
+
+.bell_img {
+  position: absolute;
+  left: 0;
+  top: 54px;
+}
+
+.phone_img {
+  position: absolute;
+  bottom: 102px;
+  left: 275px;
+}
+
+.circle {
+  position: absolute;
+  border: 1px dashed var(--ocean);
+
+  z-index: -1;
+  border-radius: 50%;
+}
+
+.circle1 {
+  top: 90px;
+  width: 400px;
+  height: 400px;
+}
+
+.circle2 {
+  top: -16px;
+  right: 178px;
+  width: 600px;
+  height: 600px;
+}
+
+.circle3 {
+  top: -110px;
+  right: 74px;
+  width: 800px;
+  height: 800px;
+  opacity: 0.4;
+}
+
+.circle4 {
+  top: -213px;
+  right: -27px;
+  width: 1000px;
+  height: 1000px;
+  opacity: 0.3;
+}
+
+.circle5 {
+  top: -298px;
+  right: -123px;
+  width: 1200px;
+  height: 1200px;
+  opacity: 0.2;
+}
+
+.circle6 {
+  top: -378px;
+  right: -216px;
+  width: 1400px;
+  height: 1400px;
+  opacity: 0.1;
+}
+
+.circle7 {
+  top: -462px;
+  right: -296px;
+  width: 1600px;
+  height: 1600px;
+  opacity: 0.1;
+}
+
+.circle8 {
+  top: -546px;
+  right: -414px;
+  width: 1800px;
+  height: 1800px;
+  opacity: 0.1;
+}
+
+
