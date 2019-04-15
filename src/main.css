@@ -320,4 +320,8 @@ body {
   background-size: contain;
 }
 
+.fourth_container__list {
+  list-style: none;
+}
+
 
