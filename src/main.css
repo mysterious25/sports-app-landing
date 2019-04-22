@@ -253,7 +253,7 @@ body {
 
 .third_container_right {
   position: relative;
-  margin-left: 120px;
+  margin-left: 220px;
 }
 
 .bell_img {
@@ -284,14 +284,14 @@ body {
 
 .circle2 {
   top: -16px;
-  right: 82px;
+  right: 30px;
   width: 600px;
   height: 600px;
 }
 
 .circle3 {
   top: -110px;
-  right: -11px;
+  right: -60px;
   width: 800px;
   height: 800px;
   opacity: 0.4;
@@ -299,7 +299,7 @@ body {
 
 .circle4 {
   top: -213px;
-  right: -110px;
+  right: -150px;
   width: 1000px;
   height: 1000px;
   opacity: 0.3;
@@ -307,7 +307,7 @@ body {
 
 .circle5 {
   top: -298px;
-  right: -200px;
+  right: -240px;
   width: 1200px;
   height: 1200px;
   opacity: 0.2;
@@ -315,7 +315,7 @@ body {
 
 .circle6 {
   top: -378px;
-  right: -290px;
+  right: -330px;
   width: 1400px;
   height: 1400px;
   opacity: 0.1;
@@ -323,7 +323,7 @@ body {
 
 .circle7 {
   top: -462px;
-  right: -380px;
+  right: -420px;
   width: 1600px;
   height: 1600px;
   opacity: 0.1;
@@ -331,7 +331,7 @@ body {
 
 .circle8 {
   top: -546px;
-  right: -470px;
+  right: -510px;
   width: 1800px;
   height: 1800px;
   opacity: 0.1;
