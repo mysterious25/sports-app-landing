@@ -10,17 +10,22 @@ body {
 
 .head-container {
   background: var(--head-img) url(icons/main-photo.png) right no-repeat;
-  height: 665px;
   display: flex;
   flex-direction: column;
   background-size: contain;
 }
 
+.main_block {
+  margin-bottom: 164px;
+  max-width: 48%;
+}
+
 .title_wrapper {
-  padding: 61px 0 0 150px;
-  max-width: 42%;
+  padding: 61px 0 0 0px;
   display: flex;
   flex-direction: column;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .logo-wrapper {
@@ -45,6 +50,7 @@ body {
   width: 453px;
   color: var(--color_for_p);
   margin: 0px 0 50px;
+  font-weight: normal;
 }
 
 .app_links__first_link {
@@ -62,7 +68,7 @@ body {
 
 .second_container_wrapper {
   margin: 0 auto;
-  width: 1366px;
+  width: 1440px;
   display: flex;
 }
 
@@ -73,6 +79,7 @@ body {
 
 .second_left {
   margin-right: 125px;
+  margin-left: 160px;
 }
 
 .match_area {
@@ -230,7 +237,7 @@ body {
 .third_container {
   display: flex;
   margin: 0 auto;
-  width: 1360px;
+  width: 1440px;
   overflow: hidden;
 }
 
@@ -240,11 +247,13 @@ body {
 }
 
 .third_container_left {
-  padding: 102px 21px 12px 110px;
+  padding: 102px 21px 12px 0px;
+  margin-left: 160px;
 }
 
 .third_container_right {
   position: relative;
+  margin-left: 120px;
 }
 
 .bell_img {
@@ -275,14 +284,14 @@ body {
 
 .circle2 {
   top: -16px;
-  right: 178px;
+  right: 82px;
   width: 600px;
   height: 600px;
 }
 
 .circle3 {
   top: -110px;
-  right: 74px;
+  right: -11px;
   width: 800px;
   height: 800px;
   opacity: 0.4;
@@ -290,7 +299,7 @@ body {
 
 .circle4 {
   top: -213px;
-  right: -27px;
+  right: -110px;
   width: 1000px;
   height: 1000px;
   opacity: 0.3;
@@ -298,7 +307,7 @@ body {
 
 .circle5 {
   top: -298px;
-  right: -123px;
+  right: -200px;
   width: 1200px;
   height: 1200px;
   opacity: 0.2;
@@ -306,7 +315,7 @@ body {
 
 .circle6 {
   top: -378px;
-  right: -216px;
+  right: -290px;
   width: 1400px;
   height: 1400px;
   opacity: 0.1;
@@ -314,7 +323,7 @@ body {
 
 .circle7 {
   top: -462px;
-  right: -296px;
+  right: -380px;
   width: 1600px;
   height: 1600px;
   opacity: 0.1;
@@ -322,7 +331,7 @@ body {
 
 .circle8 {
   top: -546px;
-  right: -414px;
+  right: -470px;
   width: 1800px;
   height: 1800px;
   opacity: 0.1;
@@ -335,7 +344,7 @@ body {
   height: 15px;
   border: 8px solid var(--white);
   position: absolute;
-  top: 453px;
+  top: 460px;
   left: -49px;
   box-sizing: content-box;
 }
