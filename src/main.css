@@ -1,4 +1,5 @@
 @import url(variables.css);
+@import url(reset.css);
 
 * {
   box-sizing: border-box;
@@ -350,12 +351,76 @@ body {
 }
 
 .fourth_container {
-  background-image: url(icons/blue-fon.jpg);
-  background-size: contain;
+  background: url(icons/blue-fon.jpg) no-repeat;
+  background-size: cover;
 }
 
 .fourth_container__list {
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 50px;
+  margin-right: auto;
+  justify-content: center;
+  margin-top: 58px;
 }
 
+.fourth_container_h3 {
+  text-align: center;
+  color: var(--white);
+  font-family: var(--font_lato);
+  padding-top: 76px;
+  font-size: 28px;
+}
+
+.fourth_container_p {
+  color: var(--white);
+  font-family: var(--font_lato);
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.fourth_container_p:before {
+  content: "• ";
+  color: var(--white);
+}
+
+.fourth_container_element {
+  flex-basis: 311px;
+  margin-right: 90px;
+  margin-bottom: 50px;
+}
+
+.fourth_container_wrapper {
+  margin: 0 auto;
+  width: 1440px;
+  padding-bottom: 66px;
+}
+
+.user_face {
+  display: flex;
+}
+
+.user_face {
+  width: 30px;
+  height: 30px;
+}
+
+.users_list {
+  list-style: none;
+}
+
+.user_profile {
+  border: 1px solid var(--grey4);
+  width: 399px;
+}
+
+.user_profile_h3 {
+  padding-top: 4px;
+  padding-left: 10px;
+}
+
+.user_profile_wrapper {
+  display: flex;
+}
 
