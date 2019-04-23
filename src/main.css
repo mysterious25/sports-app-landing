@@ -410,11 +410,12 @@ body {
   list-style: none;
 }
 
-.user_profile {
+.tns-inner .users_list .user_profile {
   border: 1px solid var(--grey4);
   margin-right: 20px;
   border-radius: 6px;
   padding: 15px;
+  width: 310px;
 }
 
 .user_profile_h3 {
@@ -442,6 +443,10 @@ body {
 }
 
 .fifth_container_wrapper {
-  width: 1400px;
+  width: 100%;
+}
+
+.tns-nav-active {
+  background: red;
 }
 

@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e64b4b48-e8ac-4b62-a6e0-5dbf40898a2f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sports-app-landing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sports-app-landing.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.css" afterDir="false" />
     </list>
@@ -63,14 +60,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="1869" />
-          <entry key="html" value="921" />
+          <entry key="css" value="1951" />
+          <entry key="html" value="956" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="1869" />
-          <entry key="HTML" value="921" />
+          <entry key="CSS" value="1951" />
+          <entry key="HTML" value="956" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -103,7 +100,7 @@
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="367">
-              <caret line="146" column="21" lean-forward="true" selection-start-line="146" selection-start-column="21" selection-end-line="146" selection-end-column="33" />
+              <caret line="260" column="28" selection-start-line="260" selection-start-column="28" selection-end-line="260" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -111,8 +108,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="416" column="15" selection-start-line="416" selection-start-column="15" selection-end-line="416" selection-end-column="15" />
+            <state relative-caret-position="418">
+              <caret line="449" column="18" selection-start-line="449" selection-start-column="18" selection-end-line="449" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -152,9 +149,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.second_left,</find>
-      <find>#4f4f4f</find>
-      <find>third</find>
       <find>.third_container</find>
       <find>second-container</find>
       <find>.h1_head</find>
@@ -182,6 +176,9 @@
       <find>fifth_container_wrapper</find>
       <find>users_list</find>
       <find>user_profile</find>
+      <find>.fifth_container_wrapper</find>
+      <find>profile</find>
+      <find>user_profi</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -331,18 +328,18 @@
       <workItem from="1554227452657" duration="631000" />
       <workItem from="1555156829697" duration="6079000" />
       <workItem from="1555320715394" duration="15784000" />
-      <workItem from="1556014246240" duration="9422000" />
+      <workItem from="1556014246240" duration="11196000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65062000" />
+    <option name="totallyTimeSpent" value="66836000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1288" y="56" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6958637" visible="true" weight="0.27344993" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6958637" visible="true" weight="0.27344993" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.30413625" side_tool="true" weight="0.24925596" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -355,7 +352,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32794458" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32794458" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -390,13 +387,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html" />
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/reset.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -414,17 +404,24 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
-          <caret line="146" column="21" lean-forward="true" selection-start-line="146" selection-start-column="21" selection-end-line="146" selection-end-column="33" />
+          <caret line="260" column="28" selection-start-line="260" selection-start-column="28" selection-end-line="260" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="416" column="15" selection-start-line="416" selection-start-column="15" selection-end-line="416" selection-end-column="15" />
+        <state relative-caret-position="418">
+          <caret line="449" column="18" selection-start-line="449" selection-start-column="18" selection-end-line="449" selection-end-column="18" />
         </state>
       </provider>
     </entry>
