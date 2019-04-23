@@ -442,11 +442,18 @@ body {
   overflow: hidden;
 }
 
-.fifth_container_wrapper {
-  width: 100%;
-}
+/*.fifth_container_wrapper {*/
+  /*width: 100%;*/
+/*}*/
 
 .tns-nav-active {
   background: red;
 }
 
+#tns1 .tns-slider > .tns-item {
+  width: 300px;
+}
+
+.user_profile p {
+  max-width: 310px;
+}
