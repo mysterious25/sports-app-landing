@@ -457,3 +457,11 @@ body {
 .user_profile p {
   max-width: 310px;
 }
+
+.tns-controls button {
+  background: white;
+  border-radius: 50%;
+  width: 47px;
+  height: 47px;
+  border: 1px solid yellow;
+}
