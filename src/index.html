@@ -4,6 +4,10 @@
   <meta charset="UTF-8">
   <title>Title</title>
   <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.1/tiny-slider.css">
+  <!--[if (lt IE 9)]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.1/min/tiny-slider.helper.ie8.js"></script><![endif]-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.1/min/tiny-slider.js"></script>
+  <!-- NOTE: prior to v2.2.1 tiny-slider.js need to be in <body> -->
 </head>
 <body>
   <section class="head-container">
@@ -136,61 +140,67 @@
       </div>
     </section>
 
-    <section>
-      <h3>What Our Users Say</h3>
-      <ul class="users_list">
-        <li class="user_profile">
-          <div class="user_profile_wrapper">
+    <section class="fifth_container">
+      <div class="fifth_container_wrapper">
+
+        <ul class="users_list my-slider">
+          <li class="user_profile">
+            <div class="user_profile_wrapper"></div>
+              <div class="user_face">
+                <img class="user_photo" alt="" src="icons/incognito.png">
+                <h3 class="user_profile_h3">Incognnito</h3>
+                <img class="icon_twitter" alt="" src="icons/twitter.png">
+              </div>
+
+
+            <p>I use this app every day and it's a great way to keep up to date with what's going on in football. It's a
+              shame it won't rotate into landscape mode like its main competitor</p>
+
+          </li>
+          <li class="user_profile">
+            <div class="user_profile_wrapper"></div>
+            <div class="user_face">
+              <img class="user_photo" alt="" src="icons/jackson.png">
+              <h3 class="user_profile_h3">Noah Jackson</h3>
+              <img class="icon_twitter" alt="" src="icons/twitter.png">
+            </div>
+            <p>I use this app every day and it's a great way to keep up to date with what's going on in football. It's a
+              shame it won't rotate into landscape mode like its main competitor</p>
+
+          </li>
+          <li class="user_profile">
+            <div class="user_profile_wrapper"></div>
             <div class="user_face">
               <img class="user_photo" alt="" src="icons/incognito.png">
-              <h3 class="user_profile_h3">Incognnito</h3>
+              <h3 class="user_profile_h3">Darren Wilson</h3>
+              <img class="icon_twitter" alt="" src="icons/twitter.png">
             </div>
-            <img alt="" src="icons/twitter.png">
-          </div>
+            <p>Good for scores and commentary but the team lineups have stopped working.</p>
 
-          <p>I use this app every day and it's a great way to keep up to date with what's going on in football. It's a
-            shame it won't rotate into landscape mode like its main competitor</p>
+          </li>
+          <li class="user_profile">
+            <div class="user_profile_wrapper"></div>
+            <div class="user_face">
+              <img class="user_photo" alt="" src="icons/akinuli.png">
+              <h3 class="user_profile_h3">Michael Akinuli</h3>
+              <img class="icon_twitter" alt="" src="icons/twitter.png">
+            </div>
+            <p>Good for watching the goals and great for highlights instead of waiting till 10:30 before you can watch
+              highlights on March of the day also no need of sky go</p>
 
-        </li>
-        <li class="user_profile">
-          <div class="user_profile_wrapper"></div>
-          <div class="user_face">
-            <img class="user_photo" alt="" src="icons/jackson.png">
-            <h3 class="user_profile_h3">Noah Jackson</h3>
-          </div>
-          <p>I use this app every day and it's a great way to keep up to date with what's going on in football. It's a
-            shame it won't rotate into landscape mode like its main competitor</p>
-          <img alt="" src="icons/twitter.png">
-        </li>
-        <li class="user_profile">
-          <div class="user_profile_wrapper"></div>
-          <div class="user_face">
-            <img class="user_photo" alt="" src="icons/incognito.png">
-            <h3 class="user_profile_h3">Darren Wilson</h3
-          </div>>
-          <p>Good for scores and commentary but the team lineups have stopped working.</p>
-          <img alt="" src="icons/twitter.png">
-        </li>
-        <li class="user_profile">
-          <div class="user_profile_wrapper"></div>
-          <div class="user_face">
-            <img class="user_photo" alt="" src="icons/akinuli.png">
-            <h3 class="user_profile_h3">Michael Akinuli</h3>
-          </div>
-          <p>Good for watching the goals and great for highlights instead of waiting till 10:30 before you can watch
-            highlights on March of the day also no need of sky go</p>
-          <img alt="" src="icons/twitter.png">
-        </li>
-        <li class="user_profile">
-          <div class="user_profile_wrapper"></div>
-          <div class="user_face">
-            <img class="user_photo" alt="" src="icons/incognito.png">
-            <h3 class="user_profile_h3">Sarah</h3>
-          </div>
-          <p></p>
-          <img alt="" src="icons/twitter.png">
-        </li>
-      </ul>
+          </li>
+          <li class="user_profile">
+            <div class="user_profile_wrapper"></div>
+            <div class="user_face">
+              <img class="user_photo" alt="" src="icons/incognito.png">
+              <h3 class="user_profile_h3">Sarah</h3>
+              <img class="icon_twitter" alt="" src="icons/twitter.png">
+            </div>
+            <p></p>
+
+          </li>
+        </ul>
+      </div>
     </section>
 
     <section>
@@ -240,4 +250,13 @@
   </ul>
 </footer>
 </body>
+<script>
+  var slider = tns({
+    container: '.my-slider',
+    "items": 3,
+    "edgePadding": 50,
+    "swipeAngle": false,
+    "speed": 400
+  });
+</script>
 </html>

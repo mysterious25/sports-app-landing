@@ -36,5 +36,8 @@
     "hooks": {
       "pre-push": "npm test"
     }
+  },
+  "dependencies": {
+    "tiny-slider": "^2.9.2"
   }
 }

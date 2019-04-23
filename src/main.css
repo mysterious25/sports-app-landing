@@ -69,7 +69,7 @@ body {
 
 .second_container_wrapper {
   margin: 0 auto;
-  width: 1440px;
+  max-width: 1440px;
   display: flex;
 }
 
@@ -238,7 +238,7 @@ body {
 .third_container {
   display: flex;
   margin: 0 auto;
-  width: 1440px;
+  max-width: 1440px;
   overflow: hidden;
 }
 
@@ -393,7 +393,7 @@ body {
 
 .fourth_container_wrapper {
   margin: 0 auto;
-  width: 1440px;
+  max-width: 1440px;
   padding-bottom: 66px;
 }
 
@@ -401,7 +401,7 @@ body {
   display: flex;
 }
 
-.user_face {
+.user_photo {
   width: 30px;
   height: 30px;
 }
@@ -412,7 +412,9 @@ body {
 
 .user_profile {
   border: 1px solid var(--grey4);
-  width: 399px;
+  margin-right: 20px;
+  border-radius: 6px;
+  padding: 15px;
 }
 
 .user_profile_h3 {
@@ -422,5 +424,24 @@ body {
 
 .user_profile_wrapper {
   display: flex;
+}
+
+.icon_twitter {
+  width: 15px;
+  height: 12px;
+  margin-top: 10px;
+  margin-left: auto;
+}
+
+.users_list {
+  display: flex;
+}
+
+.fifth_container {
+  overflow: hidden;
+}
+
+.fifth_container_wrapper {
+  width: 1400px;
 }
 
