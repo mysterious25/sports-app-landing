@@ -29,6 +29,11 @@ body {
   margin: 0 auto;
 }
 
+.center {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
 .logo-wrapper {
   height: 165px;
 }
@@ -421,6 +426,8 @@ body {
 .user_profile_h3 {
   padding-top: 4px;
   padding-left: 10px;
+  font-family: var(--font_lato);
+  font-size: 16px;
 }
 
 .user_profile_wrapper {
@@ -440,14 +447,15 @@ body {
 
 .fifth_container {
   overflow: hidden;
+  min-height: 390px;
 }
 
 /*.fifth_container_wrapper {*/
-  /*width: 100%;*/
+  /*width: 90%;*/
 /*}*/
 
 .tns-nav-active {
-  background: red;
+  background: var(--grey4);
 }
 
 #tns1 .tns-slider > .tns-item {
@@ -463,5 +471,120 @@ body {
   border-radius: 50%;
   width: 47px;
   height: 47px;
-  border: 1px solid yellow;
+  border: 1px solid var(--ocean);
+  position: absolute;
+  top: 70px;
+  cursor: pointer;
+  display: block;
+  z-index: 4;
 }
+
+.tns-nav {
+  margin-top: 10px;
+}
+
+.tns-nav button {
+  width: 11px;
+  height: 11px;
+  border: none;
+  border-radius: 50%;
+}
+
+.tns-controls button:first-child {
+  left: 0;
+  cursor: pointer;
+}
+
+.tns-controls button:nth-child(2) {
+  right: 0;
+}
+
+.tns-outer {
+  position: relative;
+}
+
+.tns-nav {
+  position: absolute;
+  bottom: -60px;
+  left: 50%;
+}
+
+.fifth_container_h3 {
+  text-align: center;
+  font-family: var(--font_lato);
+  font-size: 28px;
+  margin-bottom: 65px;
+}
+
+.commentaries {
+  font-family: var(--font_lato);
+  font-size: 14px;
+}
+
+.sixth_container_h4 {
+  font-family: var(--font_lato);
+  font-size: 28px;
+  line-height: 37px;
+  text-align: center;
+  margin-bottom: 75px;
+}
+
+.sixth_container_list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.download_section {
+  background: url("icons/mobile_footer.png") no-repeat left;
+  height: 485px;
+  background-size: contain;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+
+.download_section_description {
+  max-width: 585px;
+  padding-top: 105px;
+  padding-right: 143px;
+  font-family: var(--font_lato);
+
+}
+
+.download_section_text {
+  font-family: var(--font_lato);
+  color: var(--color_for_p);
+  line-height: 25px;
+  margin-bottom: 40px;
+}
+
+.footer {
+  display: flex;
+  background: var(--ocean);
+  padding: 50px 80px;
+  justify-content: space-between;
+}
+
+.footer_nav, .footer_social {
+  display: flex;
+  list-style: none;
+
+}
+
+.nav_link {
+  text-decoration: none;
+  color: var(--white);
+  padding-right: 20px;
+  font-family: var(--font_lato);
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.footer_icon {
+  padding-right: 15px;
+}
+
+
+
