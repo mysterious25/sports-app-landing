@@ -8,6 +8,8 @@
   <!--[if (lt IE 9)]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.1/min/tiny-slider.helper.ie8.js"></script><![endif]-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.1/min/tiny-slider.js"></script>
   <!-- NOTE: prior to v2.2.1 tiny-slider.js need to be in <body> -->
+  <link rel="stylesheet" href="animate.css">
+  <script src="wow.min.js"></script>
 </head>
 <body>
   <section class="head-container">
@@ -15,7 +17,7 @@
       <div class="logo-wrapper">
         <a href="#"><img alt="" class="logo" src="icons/logo.png"></a>
       </div>
-      <div class="main_block">
+      <div class="main_block wow bounceInLeft">
         <h1 class="h1_head">Get a personalized football experience tailored just for you</h1>
         <h6 class="p_head">Achieve super-fan status by getting tailored updates and up-to-the-minute information on your team.</h6>
         <div class="app_links">
@@ -50,7 +52,7 @@
             <source src="icons/video.mp4">
           </video>
         </div>
-        <div class="second_right">
+        <div class="second_right wow bounceInUp">
           <h5 class="h5">WHAT IT DOES</h5>
           <h3 class="h3_second_container">An Enhanced Football Experience</h3>
           <p class="p_second_container">The Guardian Live Scores app is your go to app for live scores and watching Premier League goals… Get in
@@ -66,7 +68,7 @@
       </section>
 
     <section class="third_container">
-      <div class="third_container_left">
+      <div class="third_container_left wow bounceInUp">
         <h5 class="h5">GET STARTED</h5>
         <h3 class="h3_second_container">User-friendly Interface</h3>
         <p class="p_second_container"> The in-game goal clips from every Premier League match are available to Guardian TV customers with a
@@ -267,5 +269,9 @@
       }
     }
   });
+</script>
+
+<script>
+  new WOW().init();
 </script>
 </html>

@@ -38,6 +38,7 @@
     }
   },
   "dependencies": {
-    "tiny-slider": "^2.9.2"
+    "tiny-slider": "^2.9.2",
+    "wow.js": "^1.2.2"
   }
 }
