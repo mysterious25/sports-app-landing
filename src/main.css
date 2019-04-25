@@ -10,7 +10,7 @@ body {
 }
 
 .head-container {
-  background: var(--head-img) url(icons/main-photo.png) right no-repeat;
+  background: var(--head-img) url(icons/main-photo.png) right top no-repeat;
   display: flex;
   flex-direction: column;
   background-size: contain;
@@ -480,6 +480,14 @@ body {
   z-index: 4;
 }
 
+.tns-controls button:before {
+  width: 47px;
+  height: 47px;
+  border-radius: 50%;
+
+  z-index: 10;
+}
+
 .tns-nav {
   margin-top: 10px;
 }
@@ -489,15 +497,46 @@ body {
   height: 11px;
   border: none;
   border-radius: 50%;
+  margin-right: 12px;
 }
 
 .tns-controls button:first-child {
   left: 0;
   cursor: pointer;
+  width: 47px;
+  height: 47px;
+  border-right: 1px solid var(--ocean);
+  border-top: 1px solid var(--ocean);
+  background: url(icons/arrow_left.svg) 50% 50% no-repeat;
 }
 
 .tns-controls button:nth-child(2) {
   right: 0;
+  cursor: pointer;
+  width: 47px;
+  height: 47px;
+  border-right: 1px solid var(--ocean);
+  border-top: 1px solid var(--ocean);
+  background: url(icons/arrow_right.svg) 50% 50% no-repeat;
+
+}
+
+.tns-controls button::before {
+  /*position: relative;*/
+  /*content: "";*/
+  /*display: inline-block;*/
+  /*width: 12px;*/
+  /*height: 12px;*/
+  /*border-right: 2px solid var(--ocean);*/
+  /*border-top: 2px solid var(--ocean);*/
+  /*transform: rotate(45deg);*/
+  /*margin-right: 0.5em;*/
+  /*margin-top: 10px;*/
+
+}
+
+.tns-controls #text {
+  display: none;
 }
 
 .tns-outer {
@@ -586,6 +625,8 @@ body {
 .footer_icon {
   padding-right: 15px;
 }
+
+
 
 
 
