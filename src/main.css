@@ -228,6 +228,30 @@ body {
   margin-top: 115px;
 }
 
+.second_circle {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  z-index: -1;
+  border-radius: 50%;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  animation-name: rotate;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 .a_learn_more {
   font-family: var(--font_lato);
   font-size: 16px;
@@ -289,7 +313,7 @@ body {
 .circle {
   position: absolute;
   border: 1px dashed var(--ocean);
-
+  margin: auto;
   z-index: -1;
   border-radius: 50%;
 }
@@ -354,18 +378,6 @@ body {
   width: 1800px;
   height: 1800px;
   opacity: 0.1;
-}
-
-.dot {
-  background-color: var(--ocean);
-  border-radius: 50%;
-  width: 15px;
-  height: 15px;
-  border: 8px solid var(--white);
-  position: absolute;
-  top: 460px;
-  left: -49px;
-  box-sizing: content-box;
 }
 
 .fourth_container {
@@ -632,6 +644,7 @@ body {
   padding-right: 20px;
   font-family: var(--font_lato);
   font-size: 16px;
+  font-size: 16px;
   line-height: 21px;
 }
 
@@ -641,6 +654,13 @@ body {
 
 .list_elements {
   margin-right: 90px;
+}
+
+.small_circle {
+  width: 35px;
+  height: 35px;
+  margin-top: 458px;
+  margin-left: 40px;
 }
 
 
