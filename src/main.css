@@ -501,7 +501,7 @@ body {
 }
 
 .tns-controls button:first-child {
-  left: 0;
+  left: 50px;
   cursor: pointer;
   width: 47px;
   height: 47px;
@@ -511,7 +511,7 @@ body {
 }
 
 .tns-controls button:nth-child(2) {
-  right: 0;
+  right: 50px;
   cursor: pointer;
   width: 47px;
   height: 47px;
