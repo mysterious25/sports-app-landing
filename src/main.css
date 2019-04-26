@@ -242,10 +242,17 @@ body {
 }
 
 .third_container {
-  display: flex;
-  margin: 0 auto;
-  max-width: 1440px;
+  justify-content: space-between;
+  align-content: center;
   overflow: hidden;
+}
+
+.third_container_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .third_container_left,
@@ -259,8 +266,12 @@ body {
 }
 
 .third_container_right {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-grow: 1;
   position: relative;
-  margin-left: 220px;
+  box-sizing: content-box;
 }
 
 .bell_img {
@@ -284,61 +295,62 @@ body {
 }
 
 .circle1 {
-  top: 90px;
+  top: 0;
+  bottom: 0;
   width: 400px;
   height: 400px;
 }
 
 .circle2 {
-  top: -16px;
-  right: 30px;
+  top: 0;
+  bottom: 0;
   width: 600px;
   height: 600px;
 }
 
 .circle3 {
-  top: -110px;
-  right: -60px;
+  top: 0;
+  bottom: 0;
   width: 800px;
   height: 800px;
   opacity: 0.4;
 }
 
 .circle4 {
-  top: -213px;
-  right: -150px;
+  top: 0;
+  bottom: 0;
   width: 1000px;
   height: 1000px;
   opacity: 0.3;
 }
 
 .circle5 {
-  top: -298px;
-  right: -240px;
+  top: 0;
+  bottom: 0;
   width: 1200px;
   height: 1200px;
   opacity: 0.2;
 }
 
 .circle6 {
-  top: -378px;
-  right: -330px;
+  top: 0;
+  bottom: 0;
   width: 1400px;
   height: 1400px;
   opacity: 0.1;
 }
 
 .circle7 {
-  top: -462px;
-  right: -420px;
+  top: 0;
+  bottom: 0;
   width: 1600px;
   height: 1600px;
   opacity: 0.1;
 }
 
 .circle8 {
-  top: -546px;
-  right: -510px;
+  top: 0;
+  bottom: 0;
   width: 1800px;
   height: 1800px;
   opacity: 0.1;
