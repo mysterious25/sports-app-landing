@@ -307,7 +307,7 @@ body {
 .phone_img {
   position: absolute;
   bottom: 102px;
-  left: 275px;
+  right: 50px;
 }
 
 .circle {
@@ -663,6 +663,31 @@ body {
   margin-left: 40px;
 }
 
+.mobile_phone_wrapper::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: url(icons/bell.svg) 50% 50%;
+  background-size: contain;
+  top: 49px;
+  left: 22px;
+}
+
+.mobile_phone_wrapper::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: url(icons/phone.svg) 50% 50%;
+  background-size: contain;
+  bottom: 93px;
+  right: -5px;
+}
+
+.mobile_phone_wrapper {
+  position: relative;
+}
 
 
 
