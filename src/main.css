@@ -571,8 +571,9 @@ body {
 
 .sixth_container_list {
   display: flex;
-  justify-content: space-between;
   list-style: none;
+  margin: 0 auto;
+  width: 1140px;
 }
 
 .download_section {
@@ -624,6 +625,10 @@ body {
 
 .footer_icon {
   padding-right: 15px;
+}
+
+.list_elements {
+  margin-right: 90px;
 }
 
 
