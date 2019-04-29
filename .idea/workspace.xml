@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e64b4b48-e8ac-4b62-a6e0-5dbf40898a2f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sibling/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/lib/animate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sibling/js-slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/js-slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sibling/tiny-slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tiny-slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sibling/wow.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/wow.min.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -52,14 +56,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="203" column="71" selection-start-line="203" selection-start-column="71" selection-end-line="203" selection-end-column="71" />
+            <state relative-caret-position="221">
+              <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sibling/tiny-slider.js">
+        <entry file="file://$PROJECT_DIR$/lib/tiny-slider.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="3817" selection-start-column="3817" selection-end-column="3817" />
@@ -77,7 +81,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sibling/wow.min.js">
+        <entry file="file://$PROJECT_DIR$/lib/wow.min.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret line="2" column="84" selection-start-line="2" selection-start-column="84" selection-end-line="2" selection-end-column="84" />
@@ -86,7 +90,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sibling/animate.css">
+        <entry file="file://$PROJECT_DIR$/lib/animate.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="61574">
               <caret line="3622" column="1" selection-start-line="3622" selection-start-column="1" selection-end-line="3622" selection-end-column="1" />
@@ -199,11 +203,6 @@
               <item name="sports-app-landing" type="b2602c69:ProjectViewProjectNode" />
               <item name="sports-app-landing" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="sports-app-landing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sports-app-landing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -222,6 +221,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Oleksii\Projects\lessons\sports-app-landing" />
       <recent name="C:\Users\Oleksii\Projects\lessons\sports-app-landing\src\sibling" />
       <recent name="C:\Users\Oleksii\Projects\lessons\sports-app-landing\src" />
       <recent name="C:\Users\User2\projects\sports-app-landing" />
@@ -307,18 +307,18 @@
       <workItem from="1556014246240" duration="15596000" />
       <workItem from="1556097621054" duration="12760000" />
       <workItem from="1556294494346" duration="10829000" />
-      <workItem from="1556527696224" duration="5195000" />
+      <workItem from="1556527696224" duration="5405000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107170000" />
+    <option name="totallyTimeSpent" value="107380000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1281" height="1400" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6958637" visible="true" weight="0.29501608" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6958637" visible="true" weight="0.29501608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.30413625" side_tool="true" weight="0.24925596" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -331,7 +331,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32801276" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32801276" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -377,7 +377,7 @@
     <entry file="file://$PROJECT_DIR$/src/icons/arrow_right.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sibling/js-slider.js">
+    <entry file="file://$PROJECT_DIR$/lib/js-slider.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
@@ -391,7 +391,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sibling/wow.min.js">
+    <entry file="file://$PROJECT_DIR$/lib/wow.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="2" column="84" selection-start-line="2" selection-start-column="84" selection-end-line="2" selection-end-column="84" />
@@ -401,14 +401,14 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sibling/animate.css">
+    <entry file="file://$PROJECT_DIR$/lib/animate.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="61574">
           <caret line="3622" column="1" selection-start-line="3622" selection-start-column="1" selection-end-line="3622" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sibling/tiny-slider.js">
+    <entry file="file://$PROJECT_DIR$/lib/tiny-slider.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="3817" selection-start-column="3817" selection-end-column="3817" />
@@ -431,8 +431,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="203" column="71" selection-start-line="203" selection-start-column="71" selection-end-line="203" selection-end-column="71" />
+        <state relative-caret-position="221">
+          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
         </state>
       </provider>
     </entry>
