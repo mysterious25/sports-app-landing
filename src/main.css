@@ -545,20 +545,6 @@ body {
 
 }
 
-.tns-controls button::before {
-  /*position: relative;*/
-  /*content: "";*/
-  /*display: inline-block;*/
-  /*width: 12px;*/
-  /*height: 12px;*/
-  /*border-right: 2px solid var(--ocean);*/
-  /*border-top: 2px solid var(--ocean);*/
-  /*transform: rotate(45deg);*/
-  /*margin-right: 0.5em;*/
-  /*margin-top: 10px;*/
-
-}
-
 .tns-controls #text {
   display: none;
 }
