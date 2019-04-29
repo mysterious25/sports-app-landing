@@ -480,7 +480,11 @@ body {
 /*}*/
 
 .tns-nav-active {
-  background: var(--grey4);
+  background: var(--grey4) !important;
+}
+
+.tns-outer [aria-controls], .tns-outer [data-action] {
+  background: #dddddd;
 }
 
 #tns1 .tns-slider > .tns-item {
@@ -522,6 +526,8 @@ body {
   border: none;
   border-radius: 50%;
   margin-right: 12px;
+  padding: 0;
+
 }
 
 #tns1-ow .tns-nav button:hover {
