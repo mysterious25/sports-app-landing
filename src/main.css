@@ -524,6 +524,10 @@ body {
   margin-right: 12px;
 }
 
+#tns1-ow .tns-nav button:hover {
+  color: black;
+}
+
 .tns-controls button:first-child {
   left: 50px;
   cursor: pointer;
