@@ -525,7 +525,7 @@ body {
 }
 
 #tns1-ow .tns-nav button:hover {
-  color: black;
+  background-color: #656464;
 }
 
 .tns-controls button:first-child {
