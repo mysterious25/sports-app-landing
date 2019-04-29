@@ -4,7 +4,7 @@
 
 ### Description
 
-*Tell about your project*
+*Layout of sports landing*
 
 ### Technologies are used
 
