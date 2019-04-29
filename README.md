@@ -1,6 +1,6 @@
 # Project Name
 
-###[Demo](https://mysterious25.github.io/sports-app-landing/src/index.html)
+[Demo](https://mysterious25.github.io/sports-app-landing/src/index.html)
 
 ### Description
 
@@ -10,4 +10,7 @@
 
 - *HTML*
 - *CSS*
-- ...
+- *Flex*
+- *wow.js library*
+- *tiny-slider.js library*
+
