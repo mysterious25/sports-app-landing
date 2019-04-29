@@ -532,6 +532,7 @@ body {
   border-right: 1px solid var(--ocean);
   border-top: 1px solid var(--ocean);
   background: url(icons/arrow_left.svg) 50% 50% no-repeat;
+  background-color: white;
 }
 
 .tns-controls button:nth-child(2) {
@@ -542,6 +543,7 @@ body {
   border-right: 1px solid var(--ocean);
   border-top: 1px solid var(--ocean);
   background: url(icons/arrow_right.svg) 50% 50% no-repeat;
+  background-color: white;
 
 }
 
